@@ -1,0 +1,31 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+
+# Packaging output
+build/
+dist/
+*.egg-info/
+
+# Generated simulator data
+data/*.json
+data/*.jsonl
+data/*.csv
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*~
